@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/feedback_menu_home" android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/feedback_menu_view_profile" android:title="View Profile"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_feedback_menu_edit_profile" android:title="Edit Profile"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/feedback_menu_logout" android:title="Logout"
+        android:orderInCategory="1" app:showAsAction="never" />
+</menu>

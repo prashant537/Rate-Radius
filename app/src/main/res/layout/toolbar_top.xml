@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/toolbar_top"
+android:layout_width="match_parent"
+android:layout_height="?attr/actionBarSize"
+android:background="#c0c0c0"
+android:minHeight="?attr/actionBarSize"
+app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_top_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="Hello Friends"
+            android:textSize="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp" />
+
+        <Spinner
+            android:id="@+id/toolbar_top_sort_by"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:entries="@array/sort"/>
+
+</android.support.v7.widget.Toolbar>

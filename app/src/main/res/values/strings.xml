@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RateRadius</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="action_example">Example action</string>
+    <string-array name="sort">
+        <item>Sort By Newest</item>
+        <item>Sort By Oldest</item>
+        <item>Sort By Best</item>
+    </string-array>
+</resources>

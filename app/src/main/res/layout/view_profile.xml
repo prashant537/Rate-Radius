@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="35dp">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#f3e28c"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#21618c"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/view_profile_username"
+            android:hint="Username"
+            android:layout_weight="1"
+            android:textColorHint="#21618c"
+            />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#f3e28c"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/view_profile_full_name_textbox"
+            android:hint="FULL NAME" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="#21618c"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/view_profile_full_name"
+            android:hint="Full Name"
+            android:layout_weight="1"
+            android:textColorHint="#21618c"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#f3e28c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/view_profile_empid_textbox"
+                android:hint="EMPLOYEE ID" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#21618c"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/view_profile_empid"
+                android:hint="Employee ID"
+                android:layout_weight="1"
+                android:textColorHint="#21618c"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#f3e28c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:id="@+id/view_profile_designation_textbox"
+                android:hint="DESIGNATION" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#21618c"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/view_profile_designation"
+                android:hint="Designation"
+                android:layout_weight="1"
+                android:textColorHint="#21618c"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#f3e28c"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/view_profile_bio_textbox"
+                android:hint="BIO" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textColor="#21618c"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/view_profile_bio"
+                android:hint="Bio"
+                android:layout_weight="1"
+                android:textColorHint="#21618c"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#f3e28c"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/view_profile_email_textbox"
+                android:hint="MAIL ID" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#21618c"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/view_profile_email"
+                android:hint="Mail ID"
+                android:layout_weight="1"
+                android:textColorHint="#21618c"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#f3e28c"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+<include
+android:id="@+id/toolbar_bottom"
+layout="@layout/toolbar_bottom"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"></include>
+    </RelativeLayout>

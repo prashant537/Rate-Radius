@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashant_tripathi.rateradius" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rrlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcome"/>
+        <activity android:name=".SignIn" />
+        <activity android:name=".JoinNow" />
+        <activity android:name=".Home"/>
+        <activity android:name=".FeedbackAdmin"/>
+        <activity android:name=".FeedbackFood"/>
+        <activity android:name=".FeedbackHr"/>
+        <activity android:name=".FeedbackMgmt"/>
+        <activity android:name=".FeedbackOthers"/>
+        <activity android:name=".ViewAdminFeedbacks"/>
+        <activity android:name=".ViewFoodFeedbacks"/>
+        <activity android:name=".ViewHrFeedbacks"/>
+        <activity android:name=".ViewMgmtFeedbacks"/>
+        <activity android:name=".ViewOtherFeedbacks"/>
+        <activity android:name=".ViewAllFeedbacks"/>
+        <activity android:name=".EditProfile"/>
+        <activity android:name=".ViewProfile"/>
+        <activity android:name=".MyFeedbacks"/>
+        <activity android:name=".ForgotPassword"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/bg"
+        android:paddingBottom="35dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+
+</LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_profile_username"
+            android:padding="20dp"
+            android:maxLength="15"
+            android:layout_gravity="center_horizontal"
+            android:hint="Username (max. 15 characters)"
+            android:textColorHint="#21618c"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/edit_profile_first_name"
+            android:hint="First Name"
+            android:textColorHint="#21618c"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/edit_profile_last_name"
+            android:hint="Last Name"
+            android:textColorHint="#21618c"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/edit_profile_bio"
+            android:hint="Bio"
+            android:textColorHint="#21618c"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_profile_emp_id"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Employee ID"
+            android:textColorHint="#21618c"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_profile_email"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Email ID"
+            android:textColorHint="#21618c"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/edit_profile_password"
+            android:hint="Change Password"
+            android:textColorHint="#21618c"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="SAVE CHANGES"
+                android:textColor="#000000"
+                android:background="@drawable/join_now_1"
+                android:layout_weight="1"
+                android:id="@+id/edit_profile_save_changes"
+                android:onClick="OptionSelected"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="CANCEL"
+                android:textColor="#000000"
+                android:background="@drawable/join_now_1"
+                android:layout_weight="1"
+                android:id="@+id/edit_profile_cancel"
+                android:onClick="OptionSelected"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
